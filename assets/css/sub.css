@@ -1,0 +1,188 @@
+.detail{
+    padding-bottom: 90px;
+}
+.detail .play-area .img{
+    position: relative;
+    padding-bottom: 120%;
+    background: #f00;
+}
+.detail .play-area .img img{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail .movie-tit{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.detail .info{
+    padding-left: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.detail .align{
+    margin: 20px 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail .align .btn-area{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.detail .align .btn-area a{
+    display: block;
+    background: rgba(255,255,255,0.2);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+.detail .align .btn-area i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin-left: -1px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: '';
+}
+.detail .align .btn-area i.ico-like{
+    background-position: -35px -5px;
+}
+.detail .align .btn-area i.ico-download{
+    background-position: -5px -5px;
+}
+.detail .align .btn-area i.ico-pick{
+    background-position: -5px -35px;
+}
+.detail .align .btn-area i.ico-share{
+    background-position: -35px -35px;
+}
+.detail .align .score-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail .align .score-area i.ico-star{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -65px -5px;
+    content: '';
+    margin-right: 5px;
+}
+.detail .align .score-area em{font-size: 15px;}
+.detail .align .score-area span{
+    font-size: 10px;
+    color:#ccc;
+}
+
+
+
+.sc-about{
+    padding: 0 15px;
+    margin: 15px 0 30px 0;
+}
+.sc-about span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sc-about p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.sc-tab{
+    padding-left: 15px;
+}
+.sc-tab .tabSwiper .swiper-slide{
+    width: auto;
+}
+.sc-tab .tabSwiper .swiper-slide.swiper-slide-active{
+    border: 1px solid rgb(137, 99, 218);
+    /* padding: 5px 15px; */
+    border-radius: 20px;
+    background: none;
+}
+.sc-tab .tabSwiper .swiper-slide a{
+    display: block;
+    background: rgb(45, 22, 93);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.sc-tab .detailSwiper{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sc-tab .detailSwiper .swiper-wrapper{}
+.sc-tab .detailSwiper .swiper-slide{
+    width: auto;
+}
+.sc-tab .detailSwiper .swiper-slide .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sc-tab .detailSwiper .swiper-slide .img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sc-tab .detailSwiper .swiper-slide p{
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+.sc-tab .txt-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sc-tab .txt-wrap .title{
+    font-size: 8px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.sc-tab .txt-wrap .content{
+    font-size: 8px;
+    color: rgb(86, 86, 225);
+}
+
+
+
+
+
+
+
+
+
+
+
+.line{
+    margin: 0 15px;
+    height: 1px;
+    border: 0;
+    background:#352a47;
+}
+.photoSwiper{
+    margin-bottom: 30px;
+}
+.photoSwiper .swiper-wrapper .swiper-slide .img{
+    width: 220px;
+}
+
+.sc-layout{
+    margin-top: 15px;
+}

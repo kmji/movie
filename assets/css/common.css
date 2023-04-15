@@ -1,0 +1,46 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.wrapper{
+    background-image: url(../images/main-bg.png);
+    background-size: 100% 740px;
+    background-repeat: no-repeat;
+}
+header .head-wrap .flex-wrap .ico-find{
+    background-image: url(../images/find.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sc-visual .visualSwiper .swiper-slide .btn-wrap span::before,
+.sc-visual .visualSwiper .swiper-slide .btn-wrap i{
+    background-image: url(../images/btn_sprites.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+.sc-layout .swiper-slide i{
+    background-image: url(../images/more.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.float-btn .btn-item a i{
+    background-image: url(../images/float_sprites.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* sub */
+main .align .score-area i.ico-star,
+main .align .btn-area i{
+    background-image: url(../images/sub_sprites.png);
+    background-size: 90px 60px;
+    background-repeat: no-repeat;
+}

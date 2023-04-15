@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="head-wrap">
+                <h1>Categories</h1>
+                <div class="flex-wrap">
+                    <i class="ico-find"><span class="blind">검색</span></i>
+                    <div class="user-thumb">
+                        <img src="./assets/images/user.png" alt="사용자프로필">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper categorySwiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="" class="active">All</a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="">TV shows</a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="">Movies</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </header>
+        <main>
+            <section class="sc-visual">
+                <div class="swiper visualSwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter1.jpg" alt="해리포터1">
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="">
+                                    <i class="ico-plus"><span class="blind">담기</span></i>
+                                </a>
+                                <a href="" class="green">
+                                    <span class="play">play</span>
+                                </a>
+                                <a href="">
+                                    <i class="ico-setting"><span class="blind">설정</span></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter2.jpg" alt="해리포터2">
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="">
+                                    <i class="ico-plus"><span class="blind">담기</span></i>
+                                </a>
+                                <a href="" class="green">
+                                    <span class="play">play</span>
+                                </a>
+                                <a href="">
+                                    <i class="ico-setting"><span class="blind">설정</span></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter3.jpg" alt="해리포터3">
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="">
+                                    <i class="ico-plus"><span class="blind">담기</span></i>
+                                </a>
+                                <a href="" class="green">
+                                    <span class="play">play</span>
+                                </a>
+                                <a href="">
+                                    <i class="ico-setting"><span class="blind">설정</span></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter4.jpg" alt="해리포터4">
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="">
+                                    <i class="ico-plus"><span class="blind">담기</span></i>
+                                </a>
+                                <a href="" class="green">
+                                    <span class="play">play</span>
+                                </a>
+                                <a href="">
+                                    <i class="ico-setting"><span class="blind">설정</span></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-layout">
+                <p class="title">해리포터 시리즈</p>
+                <div class="swiper trendSwiper">
+                    <ul class="swiper-wrapper" id="list1">
+                        <!-- <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter1.jpg" alt="해리포터1">
+                                <a href="sub.html">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>마법사의 돌</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter2.jpg" alt="해리포터2">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>비밀의 방</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter3.jpg" alt="해리포터3">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>아즈카반의 죄수</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter4.jpg" alt="해리포터4">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>불의 잔</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter5.jpg" alt="해리포터5">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>불사조의 기사단</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter6.jpg" alt="해리포터6">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>혼혈 왕자</em>
+                            <p>2022 · 1h 50m</p>
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-layout">
+                <p class="title">Avengers 시리즈</p>
+                <div class="swiper rankSwiper">
+                    <ul class="swiper-wrapper" id="list2">
+                       
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-layout">
+                <p class="title">Top picks for you</p>
+                <div class="swiper pickSwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter1.jpg" alt="해리포터1">
+                                <a href="sub.html">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>마법사의 돌</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter2.jpg" alt="해리포터2">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>비밀의 방</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter3.jpg" alt="해리포터3">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>아즈카반의 죄수</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter4.jpg" alt="해리포터4">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>불의 잔</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter5.jpg" alt="해리포터5">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>불사조의 기사단</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img">
+                                <img src="./assets/images/Harry Potter6.jpg" alt="해리포터6">
+                                <a href="">
+                                    <i class="ico-detail"><span class="blind">자세히보기</span></i>
+                                </a>
+                            </div>
+                            <em>혼혈 왕자</em>
+                            <p>2022 · 1h 50m</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <div class="float-btn">
+            <ul class="btn-list">
+                <li class="btn-item">
+                    <a href="" class="active">
+                        <i class="ico-discover"><span class="blind">디스커버</span></i>
+                        <span>Discover</span>
+                    </a>
+                </li>
+                <li class="btn-item">
+                    <a href="" >
+                        <i class="ico-coming"><span class="blind">개봉예정작</span></i>
+                        <span>Coming</span>
+                    </a>
+                </li>
+                <li class="btn-item">
+                    <a href="">
+                        <i class="ico-downloads"><span class="blind">다운로드</span></i>
+                        <span>Download</span>
+                    </a>
+                </li>
+                <li class="btn-item">
+                    <a href="">
+                        <i class="ico-watchlist"><span class="blind">시청목록</span></i>
+                        <span>Watchlist</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
