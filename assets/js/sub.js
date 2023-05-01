@@ -3,10 +3,6 @@ const urlParams = new URL(location.href).searchParams;
 const idVal = urlParams.get('id');
 
 
-
-console.log(idVal);
-
-
 fetch(`https://www.omdbapi.com/?i=${idVal}&apikey=679ad12`)
 .then(res=>res.json())
 .then(json=>{
@@ -26,9 +22,8 @@ fetch(`https://www.omdbapi.com/?i=${idVal}&apikey=679ad12`)
 
     html = ` <div class="play-area">
     <div class="img">
-        <img src="${json.Poster}" alt="">
+        <img src="${json.Poster}" alt="${json.Title}">
     </div>
-    <i class="ico-play"><span class="blind">재생</span></i>
 </div>
 <div class="align">
     <div class="btn-area">
@@ -51,7 +46,7 @@ fetch(`https://www.omdbapi.com/?i=${idVal}&apikey=679ad12`)
     </div>
 </div>
 <h2 class="movie-tit">${json.Title}</h2>
-<p class="info">${json.Year} · Comedy/Family film · 2h 7m</p>
+<p class="info">${json.Year} · ${json.Genre} · ${json.Runtime}</p>
 <hr class="line">
 <section class="sc-about">
     <span>About</span>
@@ -81,25 +76,18 @@ fetch(`https://www.omdbapi.com/?i=${idVal}&apikey=679ad12`)
     </div>
     <div class="txt-wrap">
         <span class="title">Director</span>
-        <span class="content">Christian Landon</span>
+        <span class="content">${json.Director}</span>
     </div>
     <div class="txt-wrap">
-        <span class="title">Writers</span>
-        <span class="content">Christian Landon</span>
-        <span>·</span>
-        <span class="content">Geoff Manaugh</span>
+        <span class="title">Writer</span>
+        <span class="content">${json.Writer}</span>
     </div>
     
 </section>
 
 `
 
-
-
     $('#detail').html(html);
-
-
-
 
 })
 

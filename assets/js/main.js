@@ -9,13 +9,13 @@ $(function(){
             allData.forEach(element => {
                 html +=`<li class="swiper-slide">
                 <div class="img">
-                    <img src="${element.Poster}" alt="해리포터1">
+                    <img src="${element.Poster}" alt="${element.Title}">
                     <a href="./sub.html?id=${element.imdbID}">
                         <i class="ico-detail"><span class="blind">자세히보기</span></i>
                     </a>
                 </div>
                 <em>${element.Title}</em>
-                <p>2022 · 1h 50m</p>
+                <p>${element.Year}</p>
             </li>`
             });
 
@@ -26,6 +26,7 @@ $(function(){
 
     movieList('Harry%20Potter','#list1')
     movieList('avengers','#list2')
+    movieList('x%20men','#list3')
 
 
 
